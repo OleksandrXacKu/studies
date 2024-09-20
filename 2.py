@@ -9,9 +9,9 @@
 #print(r)
 #...
 number = int(input("число: "))
-q, remainder = divmod(number, 1000)   # Отримуємо тисячі та залишок
-w, remainder = divmod(remainder, 100)  # Отримуємо сотні та залишок
-e, r = divmod(remainder, 10)  # Отримуємо десятки та одиниці
+q, remainder = divmod(number, 1000)
+w, remainder = divmod(remainder, 100)
+e, r = divmod(remainder, 10)
 print(q)
 print(w)
 print(e)
