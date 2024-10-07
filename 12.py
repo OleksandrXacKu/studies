@@ -12,5 +12,5 @@ def is_valid_variable_name(name):
         return True
     return False
 
-input_string = "хочу відпустку"
+input_string = "хочу_відпустку"
 print(is_valid_variable_name(input_string))
