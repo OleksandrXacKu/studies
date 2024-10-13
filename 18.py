@@ -17,15 +17,3 @@
 # assert correct_sentence("greetings, friends.") == "Greetings, friends.", 'Test5'
 # print('ОК')
 # ...
-
-def correct_sentence(text: str) -> str:
-    sentences = text.split(". ")
-    correct_sentences = []
-    for sentence in sentences:
-        sentence = sentence.strip()
-        if sentence:
-            sentence = sentence[0].upper() + sentence[1:]
-            if not sentence.endswith("."):
-                sentence +="."
-            correct_sentences.append(sentence)
-    return " ".join(corr)
